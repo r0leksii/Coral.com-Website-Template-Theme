@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preload" href="/font/OpenSans-Regular.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/font/OpenSans-SemiBold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/font/Poppins-Regular.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/font/Roboto-Light.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/font/Roboto-Medium.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/font/Roboto-Regular.woff2" as="font" type="font/woff2">
+
+    <title>Coral Shop Online</title>
+    <style>
+        @font-face {
+            font-family: Poppins;
+            src: url(/font/Poppins-Regular.woff2);
+            font-display: swap;
+        }
+        @font-face {
+            font-family: Roboto;
+            src: url(/font/Roboto-Light.woff2);
+            font-weight: 300;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: Roboto;
+            src: url(/font/Roboto-Regular.woff2);
+            font-weight: 400;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: Roboto;
+            src: url(/font/Roboto-Medium.woff2);
+            font-weight: 500;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: OpenSans;
+            src: url(/font/OpenSans-Regular.woff2);
+            font-weight: 400;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: OpenSans;
+            src: url(/font/OpenSans-SemiBold.woff2);
+            font-weight: 600;
+            font-display: swap;
+        }
+
+    </style>
+</head>
+<body>   
+    <section id="hero" class="hero">
+        <header class="header">
+            <div class="header__logo">
+                <a class="header__account">Account</a>
+                <a class="header__icon-shopping"></a>
+            </div>
+            <nav class="header__menu">
+                <a href="#">Jewelry & Accessories</a>
+                <a href="#">Clothing & Shoes</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Wedding & Party</a>
+                <a href="#">Toys & Entertainment</a>
+                <a href="#">Art & Collectibles</a>
+                <a href="#">Craft Supplies & Tools</a>
+            </nav>
+        </header>
+        <div class="hero__wrapper">
+            <div class="hero__text">
+                <h1>Collections</h1>
+                <p class="">You Can Explore And Shop Many Differnt Collection<br />From Various Brands Here.</p>
+                <button class="hero__button" type="button" onclick="location.href='#'">Shop Now</button>
+            </div>
+            <div class="hero__img">
+                <div class="hero__img-hero">
+                    <img src="/img/engin-akyurt-jaZoffxg1yc-unsplash 1.jpg" width="426" height="auto" alt="girl" loading="eager">
+                </div>
+            </div>
+        </div>
+        <figure class="hero__frame-1">
+            <img src="/assets/Frame2.svg" width="auto" height="auto" alt="frame2">
+        </figure>
+        <figure  class="hero__frame-2">
+            <img src="/assets/Frame.svg" width="auto" height="auto" alt="frame">
+        </figure>
+    </section>
+    <section class="brand">
+        <div class="brand__logo">
+            <img src="/assets/brand-1.svg" alt="">
+            <img src="/assets/brand-2.svg" alt="">
+            <img src="/assets/brand-3.svg" alt="">
+            <img src="/assets/brand-4.svg" alt="">
+            <img src="/assets/brand-5.svg" alt="">
+        </div>
+    </section>
+    <section class="category">
+        <div class="category__wrapper">
+            <span class="category__text">Explore new and popular styles</span>
+            <div class="category-1">
+                <a class="category-__link" href="#">
+                    <img src="/img/image-category-1.jpg" width="648" height="648" alt="image-category-1" loading="lazy">
+                    <div class="category__hover">
+                        <div>Jacket</div>
+                        <div><span>103</span> Product</div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-2">
+                <a class="category-__link" href="#">
+                    <img src="/img/image-category-2.jpg" width="312" height="312" alt="image-category-2" loading="lazy">
+                    <div class="category__hover">
+                        <div>Jacket</div>
+                        <div><span>103</span> Product</div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-3">
+                <a class="category-__link" href="#">
+                    <img src="/img/image-category-3.jpg" width="312" height="312" alt="image-category-3" loading="lazy">
+                    <div class="category__hover">
+                        <div>Jacket</div>
+                        <div><span>103</span> Product</div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-4">
+                <a class="category-__link" href="#">
+                    <img src="/img/image-category-4.jpg" width="312" height="312" alt="image-category-4" loading="lazy">
+                    <div class="category__hover">
+                        <div>Jacket</div>
+                        <div><span>103</span> Product</div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-5">
+                <a class="category-__link" href="#">
+                    <img src="/img/image-category-5.jpg" width="312" height="312" alt="image-category-5" loading="lazy">
+                    <div class="category__hover">
+                        <div>Jacket</div>
+                        <div><span>103</span> Product</div>
+                    </div>
+                </a>
+            </div>
+          </div>
+    </section>
+    <section class="products">
+        <div class="product__wrapper">
+            <h2>New products</h2>
+            <div class="top-grid-products">
+                <div class="product__nav">
+                    <a class="product__nav-item" href="#">All products</a>
+                    <a class="product__nav-item" href="#">T-shirt</a>
+                    <a class="product__nav-item" href="#">Hoodies</a>
+                    <a class="product__nav-item" href="#">Jacket</a>
+                </div>
+                <div class="product__filter">
+                    <a class="product__filter-item" href="#">Filter</a>
+                </div>
+            </div>
+            <div class="grid-products">
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p1.jpg" alt="Adicolor Classics Joggers" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Classics Joggers</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$63.85</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p2.jpg" alt="Nike Sportswear Futura Luxe" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Nike Sportswear Futura Luxe</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Bag</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$130.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p3.jpg" alt="Geometric print Scarf" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Geometric print Scarf</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Scarf</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$53.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="true">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p4.jpg" alt="Yellow Reserved Hoodie" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Yellow Reserved Hoodie</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="true">$364.00</div>
+                            <div class="grid-product__price-sale" data-type="true">$155.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="true">Hot</div>
+                        </div>
+                        <img src="/img/p5.jpg" alt="Basic Dress Green" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Basic Dress Green</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$236.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="true">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p6.jpg" alt="Nike Air Zoom Pegasus" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Nike Air Zoom Pegasus</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Shoe</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="true">$220.00</div>
+                            <div class="grid-product__price-sale" data-type="true">$198.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p7.jpg" alt="Nike Repel Miler" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                     <h4><a href="#">Nike Repel Miler</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$220.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p8.jpg" alt="Polarised Sunglasses" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Polarised Sunglasses</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Glasses</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$160.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brand-banner">
+        <div class="brand-banner__wrapper">
+            <div class="brand-banner__text">
+                <h3 class="brand-banner__zara-title">
+                    <span class="brand-banner__zara-title-logo">Zara</span>
+                </h3>
+                <p>Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.</p>
+                <a href="#" class="brand-banner__zara-link">See Collection</a>
+            </div>
+        </div>
+        <div class="brand-banner__zara-title-logo-1"></div>
+    </section>
+    <section class="slider-products">
+        <div class="slider-product__wrapper">
+            <h2>Best Sellers</h2>
+            <div class="top-grid-products">
+                <div class="product__nav">
+                    <a class="product__nav-item" href="#">All products</a>
+                    <a class="product__nav-item" href="#">T-shirt</a>
+                    <a class="product__nav-item" href="#">Hoodies</a>
+                    <a class="product__nav-item" href="#">Jacket</a>
+                </div>
+                <a class="slider-product__filter-item" href="#">Show All</a>
+            </div>
+            <div class="slider-grid-products">
+                <div class="slider-product__nav">
+                    <a class="slider-product__prev"><img src="/assets/left-arrow.svg" alt="prev-arrow"></a>
+                    <a class="slider-product__next"><img src="/assets/right-arrow.svg" alt="next-arrow"></a>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p1.jpg" alt="Adicolor Classics Joggers" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Classics Joggers Classics Joggers Classics Joggers Classics Joggers</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$63.85</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p2.jpg" alt="Nike Sportswear Futura Luxe" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Nike Sportswear Futura Luxe</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Bag</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$130.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="false">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p3.jpg" alt="Geometric print Scarf" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Geometric print Scarf</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Scarf</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="false">$53.00</div>
+                            <div class="grid-product__price-sale" data-type="false">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-product__item">
+                    <div class="grid-product__item-img">
+                        <div class="grid-product__badge">
+                            <div class="grid-product__badge-sale" data-type="true">Sale</div>
+                            <div class="grid-product__badge-hot" data-type="false">Hot</div>
+                        </div>
+                        <img src="/img/p4.jpg" alt="Yellow Reserved Hoodie" loading="lazy">
+                        <div class="grid-product__access">
+                            <div class="grid-product__access-icon">
+                                <a class="grid-prduct__access-icon-favorit" href="#"></a>
+                                <a class="grid-prduct__access-icon-search" href="#"></a>
+                            </div>
+                            <a href="" class="grid-product__access-btn">Shop now</a>
+                        </div>
+                    </div>
+                    <h4><a href="#">Yellow Reserved Hoodie</a></h4>
+                    <div class="grid-product__bottom">
+                        <div class="grid-product__category">Dress</div>
+                        <div class="grid-product__price">
+                            <div class="grid-product__price-regular" data-type="true">$364.00</div>
+                            <div class="grid-product__price-sale" data-type="true">$155.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="instagram-section">
+        <div class="instagram-section__wrapper">
+            <h2>Follow products and discounts on Instagram</h2>
+            <div class="instagram-item">
+                <a href="#">
+                    <div class="instagram-img">
+                        <img src="/img/i011 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="instagram-img">
+                    
+                        <img src="/img/i012 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="instagram-img">
+                        <img src="/img/i014 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="instagram-img">
+                        <img src="/img/i02 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="instagram-img">
+                        <img src="/img/i03 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="instagram-img">
+                        <img src="/img/i07 1.jpg" width="200" height="200" alt="instagram-image">
+                        <div class="instagram-img__hover"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="newsletter__wrapper">
+            <h2>Or subscribe to the newsletter</h2>
+            <div class="newsletter-form">
+                <input class="newsletter-form__item" type="email" placeholder="Email address..." required>
+                <input class="newsletter-form__item" type="submit">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__info">
+                <div class="footer__logo"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="footer__social">
+                    <a class="facebook" href="" target="_blank"></a>
+                    <a class="twitter" href="" target="_blank"></a>
+                    <a class="linkedin" href="" target="_blank"></a>
+                    <a class="dribbble" href="" target="_blank"></a>
+                </div>
+            </div>
+            <div class="footer__catalog">
+                <h3>Catalog</h3>
+                <ul>
+                    <li><a href="">Necklaces</a></li>
+                    <li><a href="">Hoodies</a></li>
+                    <li><a href="">Jewelry Box</a></li>
+                    <li><a href="">T-shirt</a></li>
+                    <li><a href="">Jacket</a></li>
+                </ul>
+            </div>
+            <div class="footer__about">
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="">Our Producers</a></li>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer__services">
+                <h3>Customer services</h3>
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Track Your Order</a></li>
+                    <li><a href="">Product Care & Repair</a></li>
+                    <li><a href="">Book an Appointment</a></li>
+                    <li><a href="">Shipping & Returns</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom__wrapper">
+                <p>© 2022 Coral , Inc.</p>
+                <div>
+                    <img src="/img/icons_payment 1.png" alt="">
+                </div>
+                <a href="#hero" class="scroll-top">Scroll to top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
